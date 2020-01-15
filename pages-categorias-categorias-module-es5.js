@@ -351,7 +351,7 @@ var BaseResouceService = /** @class */ (function () {
         this.apiPath = apiPath;
         this.injector = injector;
         this.jsonDataToResourceFn = jsonDataToResourceFn;
-        this.urlBase = 'http://thiagooliveira.somee.com/';
+        this.urlBase = 'https://thiagooliveira.somee.com/';
         this.http = injector.get(_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClient"]);
     }
     BaseResouceService.prototype.getall = function () {

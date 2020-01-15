@@ -403,7 +403,7 @@ let AuthService = class AuthService {
         this.router = router;
         this.http = http;
         // API path
-        this.basePath = 'http://thiagooliveira.somee.com/';
+        this.basePath = 'https://thiagooliveira.somee.com/';
         // Http Options
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
